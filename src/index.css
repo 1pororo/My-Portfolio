@@ -10,11 +10,21 @@
   }
 
   .navbar a:hover {
-    @apply text-amber-700 pb-1;
+    @apply text-amber-600 pb-1;
+    @apply border-spacing-1 border-b-2 border-gray-200;
   }
 }
 
 * {
   margin: 0;
   font-family: "Ubuntu";
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("dot-grid.png");
 }

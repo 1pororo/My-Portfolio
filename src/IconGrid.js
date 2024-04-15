@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const IconGrid = ({ data }) => {
   return (
-    <div className="grid grid-cols-2 gap-10 border-solid border-black border-2">
+    <div className="grid grid-cols-2 gap-10 ">
       {data.map((icon) => {
         return (
           <div className="icon-details" key={icon.id}>
