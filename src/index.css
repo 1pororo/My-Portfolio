@@ -10,7 +10,7 @@
   }
 
   .navbar a:hover {
-    @apply text-amber-700 border-b-2 pb-1;
+    @apply text-amber-700 pb-1;
   }
 }
 
