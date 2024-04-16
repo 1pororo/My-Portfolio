@@ -28,3 +28,18 @@ body {
     ),
     url("dot-grid.png");
 }
+
+/* icon grid style */
+.icon-details {
+  width: 416px;
+}
+
+.icon-details:hover h3 {
+  color: rgb(217 119 6);
+  transition: ease-in-out color 0.1s;
+}
+
+.icon-details:hover .icon {
+  font-size: 6rem;
+  margin: 3.25rem;
+}

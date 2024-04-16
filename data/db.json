@@ -4,13 +4,13 @@
       "title": "Projects",
       "id": "1",
       "description": "A comprehensive list of projects that showcases the applications of my skills",
-      "src": "./images/icons/project-icon.png"
+      "src": "laptop-file"
     },
     {
       "title": "Contacts",
       "id": "2",
       "description": "Find out where you can reach me and my work",
-      "src": ""
+      "src": "address-book"
     }
   ],
   "projects": [
