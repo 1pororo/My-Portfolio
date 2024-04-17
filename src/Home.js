@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   return (
-    <main className="home max-w-4xl mx-auto my-0 p-3">
+    <main className="home max-w-4xl w-full mx-auto my-0 px-3 scro">
       <Introduction />
       {data !== null && <IconGrid data={data} />}
     </main>

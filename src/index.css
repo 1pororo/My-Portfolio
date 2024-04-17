@@ -23,10 +23,11 @@
 body {
   height: 100vh;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
     ),
     url("dot-grid.png");
+  background-size: 100vw;
 }
 
 /* icon grid style */
@@ -34,7 +35,7 @@ body {
   width: 416px;
 }
 
-.icon-details:hover h3 {
+.icon-details:hover h2 {
   color: rgb(217 119 6);
   transition: ease-in-out color 0.1s;
 }
@@ -42,4 +43,5 @@ body {
 .icon-details:hover .icon {
   font-size: 6rem;
   margin: 3.25rem;
+  color: rgb(217, 119, 6, 0.8);
 }

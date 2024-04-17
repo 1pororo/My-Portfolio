@@ -3,14 +3,76 @@
     {
       "title": "Projects",
       "id": "1",
-      "description": "A comprehensive list of projects that showcases the applications of my skills",
+      "description": "A comprehensive list of projects that showcases the applications of my skills 🗃️",
       "src": "laptop-file"
     },
     {
       "title": "Contacts",
       "id": "2",
-      "description": "Find out where you can reach me and my work",
+      "description": "Find out where you can reach me or see my work 📲",
       "src": "address-book"
+    }
+  ],
+  "aboutMe": [
+    {
+      "id": "school",
+      "image_1": {
+        "src": "",
+        "content": ""
+      },
+      "image_2": {
+        "src": "",
+        "content": ""
+      },
+      "image_3": {
+        "src": "",
+        "content": ""
+      }
+    },
+    {
+      "id": "sports",
+      "image_1": {
+        "src": "",
+        "content": ""
+      },
+      "image_2": {
+        "src": "",
+        "content": ""
+      },
+      "image_3": {
+        "src": "",
+        "content": ""
+      }
+    },
+    {
+      "id": "food",
+      "image_1": {
+        "src": "",
+        "content": ""
+      },
+      "image_2": {
+        "src": "",
+        "content": ""
+      },
+      "image_3": {
+        "src": "",
+        "content": ""
+      }
+    },
+    {
+      "id": "passion",
+      "image_1": {
+        "src": "",
+        "content": ""
+      },
+      "image_2": {
+        "src": "",
+        "content": ""
+      },
+      "image_3": {
+        "src": "",
+        "content": ""
+      }
     }
   ],
   "projects": [

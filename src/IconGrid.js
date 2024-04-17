@@ -10,19 +10,19 @@ const IconGrid = ({ data }) => {
             className="icon-details text-center border rounded-xl"
             key={icon.id}
           >
-            <div className="icon-thumbnail bg-slate-200 rounded-t-xl">
-              <Link to={`/${icon.title}`}>
+            <Link to={`/${icon.title}`}>
+              <div className="icon-thumbnail bg-slate-100 rounded-t-xl">
                 <FontAwesomeIcon
                   icon={icon.id === "1" ? "laptop-file" : "address-book"}
                   className="icon text-7xl transition-all m-16"
                 />
+              </div>
+            </Link>
+            <div className="icon-description text-left p-4 text-base">
+              <Link to={`/${icon.title}`}>
+                <h2 className="text-lg font-semibold">{icon.title}</h2>
               </Link>
-            </div>
-            <div className="icon-description text-left">
-              <Link to="/">
-                <h3>{icon.title}</h3>
-              </Link>
-              <p>{icon.description}</p>
+              <p className="pt-2">{icon.description}</p>
             </div>
           </div>
         );
