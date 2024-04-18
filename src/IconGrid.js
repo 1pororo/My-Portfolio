@@ -18,7 +18,7 @@ const IconGrid = ({ data }) => {
                 />
               </div>
             </Link>
-            <div className="icon-description text-left p-4 text-base">
+            <div className="icon-description text-left p-4 text-base text-slate-900">
               <Link to={`/${icon.title}`}>
                 <h2 className="text-lg font-semibold">{icon.title}</h2>
               </Link>

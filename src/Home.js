@@ -6,7 +6,7 @@ const Home = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/pages")
+    fetch("http://localhost:2000/pages")
       .then((res) => {
         if (!res.ok) {
           throw Error("could not fetch");
@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   return (
-    <main className="home max-w-4xl w-full mx-auto my-0 px-3 scro">
+    <main className="home max-w-4xl w-full mx-auto my-0 px-3">
       <Introduction />
       {data !== null && <IconGrid data={data} />}
     </main>
