@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useFetch = ({ url }) => {
+const useFetch = (url) => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -8,20 +8,20 @@ const useFetch = ({ url }) => {
     fetch(url)
       .then((res) => {
         if (!res.ok) {
-          throw Error("could not fetch");
+          throw Error("HTTP error " + res.status);
         }
         return res.json();
       })
       .then((db) => {
         setData(db);
-        console.log(data);
       })
       .catch((err) => {
         if (err.name === "AbortError") {
-          setError(err.name);
+          return;
         }
+        setError(err.name);
       });
-  }, []);
+  }, [url]);
 
   return { data, error };
 };

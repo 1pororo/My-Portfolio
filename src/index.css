@@ -27,13 +27,11 @@ body {
       rgba(255, 255, 255, 0.85)
     ),
     url("dot-grid.png");
-  background-size: 100vw;
+  background-size: 1500px;
+  color: rgb(2 6 23);
 }
 
 /* icon grid style */
-.icon-details {
-  width: 416px;
-}
 
 .icon-details:hover .icon-thumbnail {
   background-color: rgb(237, 240, 244);
@@ -48,8 +46,4 @@ body {
   font-size: 6rem;
   margin: 3.25rem;
   color: rgb(217, 119, 6, 0.9);
-}
-
-.icon-details:hover .icon-description {
-  color: rgb(2 6 23);
 }
