@@ -15,7 +15,7 @@ const Home = () => {
       <Introduction section1={section1} />
       {pages !== null && <IconGrid pages={pages} />}
 
-      {<AboutMe aboutMe={aboutMe} section1={section1} />}
+      {aboutMe !== null && <AboutMe aboutMe={aboutMe} section1={section1} />}
     </main>
   );
 };

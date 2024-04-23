@@ -18,6 +18,7 @@
 * {
   margin: 0;
   font-family: "Ubuntu";
+  border
 }
 
 body {
@@ -45,5 +46,4 @@ body {
 .icon-details:hover .icon {
   font-size: 6rem;
   margin: 3.25rem;
-  color: rgb(217, 119, 6, 0.9);
 }
