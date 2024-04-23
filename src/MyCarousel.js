@@ -22,7 +22,6 @@ const Buttons = styled.div`
 
 const Content = styled.div`
   background: black;
-  border
 `;
 
 const CarouselContainer = ({ slides }) => {
