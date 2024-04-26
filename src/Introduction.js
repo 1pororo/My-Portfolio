@@ -18,9 +18,9 @@ const Introduction = ({ section1 }) => {
         <FontAwesomeIcon icon="angles-down" className=" p-3 px-1 mx-3" />
       </button>
       <p className="py-3 text-2xl">A collection of who I am as a developer</p>
-
+      {/* 
       <div className="pt-96 mt-96">blank</div>
-      <div className="pt-96 mt-96">naso</div>
+      <div className="pt-96 mt-96">naso</div> */}
     </div>
   );
 };

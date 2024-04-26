@@ -7,9 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Carousel = styled.div`
   display: flex;
   overflow-x: hidden;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  transition: width 0.4s cubic-bezier(0.4, 2, 0.4, 0.6);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: max-width 0.4s cubic-bezier(0.4, 2, 0.4, 0.6);
 `;
 const Slide = styled.div`
   flex: 0 0 100%;
@@ -20,12 +20,8 @@ const Buttons = styled.div`
   justify-content: space-between;
 `;
 
-const Content = styled.div`
-  background: black;
-`;
-
 const CarouselContainer = ({ slides }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(2);
 
   const nextIndex = () => {
     setCurrentIndex((currentIndex + 1) % slides.length);
@@ -37,7 +33,7 @@ const CarouselContainer = ({ slides }) => {
 
   return (
     <div>
-      <Carousel className="w-44 hover:w-48">
+      <Carousel className="max-w-56 hover:max-w-60 overflow-hidden">
         {slides.map((image, index) => {
           return (
             <Slide
@@ -53,12 +49,12 @@ const CarouselContainer = ({ slides }) => {
         })}
       </Carousel>
       <Buttons>
-        {currentIndex > 0 && (
-          <FontAwesomeIcon onClick={prevIndex} icon="arrow-left" />
-        )}
-        {currentIndex !== slides.length - 1 && (
-          <FontAwesomeIcon onClick={nextIndex} icon="arrow-right" />
-        )}
+        <button onClick={prevIndex}>
+          <FontAwesomeIcon icon="arrow-left" />
+        </button>
+        <button onClick={nextIndex}>
+          <FontAwesomeIcon icon="arrow-right" />
+        </button>
       </Buttons>
     </div>
   );

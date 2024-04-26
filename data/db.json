@@ -15,32 +15,56 @@
   ],
   "aboutMe": [
     {
+      "title": "My school life",
       "id": "school",
-      "images": {
-        "src1": "",
-        "src2": "",
-        "src3": "",
-        "src4": ""
-      },
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Award_Pic.jpg",
+          "id": "Award"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Excursion_SHSM.jpg",
+          "id": "SHSM Activity"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SHSM_Trip.jpg",
+          "id": "Group photo"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/CS_Matching.jpg",
+          "id": "Matching computer parts"
+        }
+      ],
       "description": "🔶 I am a grade 11 student at Northview Heights SS in the HMST and ICT SHSM programs \n 🔶 One thing I'm proud of is receiving the Computer Science award in grade 10 \n 🔶 Physics is one of the subjects that I enjoy learning in school because it's very straightforward"
     },
     {
+      "title": "I like being active",
       "id": "activities",
-      "images": {
-        "src1": "/images/about-me/",
-        "src2": "",
-        "src3": "",
-        "src4": ""
-      },
-      "description": "🔶 I've been playing recreational tennis every summer since 2022 \n 🔶 I also play badminton and table tennis in and outside of school \n 🔶 On some days, I tutor younger kids in math/science"
-    },
-    {
-      "id": "food",
       "images": [
         {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bbq-park.jpg",
-          "id": "Barbeque"
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tennis_Tourny.jpg",
+          "id": "Tennis tournament"
         },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/TT_Game.jpg",
+          "id": "Table Tennis tournament"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kayak_Boat.jpg",
+          "id": "Kayaking"
+        },
+
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Volunteer_CP.jpg",
+          "id": "Volunteering"
+        }
+      ],
+      "description": "🔶 I've been playing recreational tennis every summer since 2022 \n 🔶 I also play badminton and table tennis in and outside of school \n 🔶 In my free time, I play the guitar \n 🔶 On some days, I tutor younger kids in math/science"
+    },
+    {
+      "title": "I lovee food",
+      "id": "food",
+      "images": [
         {
           "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Birria-tacos.jpg",
           "id": "Birria Tacos"
@@ -50,20 +74,45 @@
           "id": "Cherry Pie"
         },
         {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bbq-park.jpg",
+          "id": "Barbeque"
+        },
+        {
           "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sushi-platter.jpg",
           "id": "Sushi platter"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Food_Aerial.jpg",
+          "id": "Feast"
         }
       ],
       "description": "🔶 I often go out to eat with my family to try different restaurants/foods we find \n 🔶 I love desserts (from pies to tiramisu) and bread \n 🔶 Recently, my obsession has been on sushi"
     },
     {
+      "title": "My passion",
       "id": "passion",
-      "images": {
-        "src1": "",
-        "src2": "",
-        "src3": "",
-        "src4": ""
-      },
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Snow_Close.jpg",
+          "id": "Snow on plants"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Blossoms_Tree.jpg",
+          "id": "Cherry blossom"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Plants_Bridge.jpg",
+          "id": "Plants"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Plane_Clouds.jpg",
+          "id": "Plane"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Tree_Pretty.jpg",
+          "id": "Tree"
+        }
+      ],
       "description": "🔶 I like programming even though I just recently picked it up. There's a certain calm that I feel while creating my projects \n 🔶 I like taking and looking at pictures of nature. (My laptop wallpaper is set to Windows spotlight (❁´◡`❁)) \n 🔶 My dream is to work in cybersecurity and help people"
     }
   ],
