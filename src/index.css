@@ -46,3 +46,9 @@ body {
   font-size: 6rem;
   margin: 3.25rem;
 }
+
+/* about me carousel container */
+
+.carousel-container {
+  transition: max-width 0.4s cubic-bezier(0.4, 2, 0.4, 0.6);
+}

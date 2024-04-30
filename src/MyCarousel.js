@@ -9,19 +9,14 @@ const Carousel = styled.div`
   overflow-x: hidden;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  transition: max-width 0.4s cubic-bezier(0.4, 2, 0.4, 0.6);
 `;
+
 const Slide = styled.div`
   flex: 0 0 100%;
 `;
 
-const Buttons = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
 const CarouselContainer = ({ slides }) => {
-  const [currentIndex, setCurrentIndex] = useState(2);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextIndex = () => {
     setCurrentIndex((currentIndex + 1) % slides.length);
@@ -32,8 +27,8 @@ const CarouselContainer = ({ slides }) => {
   };
 
   return (
-    <div>
-      <Carousel className="max-w-56 hover:max-w-60 overflow-hidden">
+    <div className=" relative">
+      <Carousel>
         {slides.map((image, index) => {
           return (
             <Slide
@@ -48,14 +43,20 @@ const CarouselContainer = ({ slides }) => {
           );
         })}
       </Carousel>
-      <Buttons>
+      <div className=" flex absolute top-0 opacity-0 w-full h-full justify-between hover:opacity-100 px-2">
         <button onClick={prevIndex}>
-          <FontAwesomeIcon icon="arrow-left" />
+          <FontAwesomeIcon
+            icon="arrow-left"
+            className="bg-slate-100 bg-opacity-50 hover:bg-opacity-80 rounded-full py-2 px-2"
+          />
         </button>
         <button onClick={nextIndex}>
-          <FontAwesomeIcon icon="arrow-right" />
+          <FontAwesomeIcon
+            icon="arrow-right"
+            className="bg-slate-100 bg-opacity-50 hover:bg-opacity-80 rounded-full py-2 px-2"
+          />
         </button>
-      </Buttons>
+      </div>
     </div>
   );
 };

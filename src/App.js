@@ -6,6 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import * as Icons from "@fortawesome/free-solid-svg-icons";
 import NotFound from "./NotFound";
 import Footer from "./Footer";
+import Creatives from "./Creatives";
 
 const iconList = Object.keys(Icons)
   .filter((key) => key !== "fas" && key !== "prefix")
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectList />} />
+          <Route path="/creatives" element={<Creatives />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

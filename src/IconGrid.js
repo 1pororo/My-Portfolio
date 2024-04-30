@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const IconGrid = ({ pages }) => {
   return (
-    <div className="icon-grid grid grid-cols-2 gap-10 mb-40 ">
+    <div className="icon-grid grid grid-cols-2 gap-10 pb-32 border-b-2">
       {pages.map((icon) => {
         return (
           <div
